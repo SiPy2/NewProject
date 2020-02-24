@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<resources>
+  <set path = "images" />
+	<atlas>
+		<set path="images" />
+		<image file="anim.png" />
+		<image file="button.png" />
+		<image file="OxyAcceptButton.png" />
+		<image file="OxyCloseButton.png" />
+		<image file="OxyDeclineButton.png" />
+		<image file="OxyDescription.png" />
+		<image file="OxyHeader.png" />
+		<image file="OxyLine.png" />
+		<image file="OxyMain.png" />
+		<image file="OxyQuests.png" />
+    <image file="border_top_left.png" />
+    <image file="border_top_right.png" />
+    <image file="border_down_right.png" />
+    <image file="border_down_left.png" />
+    <image file="border_main_top_down.png" />
+    <image file="border_main_left_right.png" />
+	</atlas>
+</resources>
