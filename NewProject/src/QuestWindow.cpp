@@ -142,12 +142,6 @@ Questwindow::Questwindow()
 		quest_list_button[j]->setSize(quest_list_window->getSize().x,25);
 		quest_list_button[j]->setPosition(0,pos.y);
 
-		/*quest_list_text[j] = new TextField();
-		quest_list_text[j]->setAlign(TextStyle::VALIGN_MIDDLE, TextStyle::HALIGN_MIDDLE);
-		quest_list_text[j]->setText(quest_list[j]);
-		quest_list_button[j]->addChild(quest_list_text[j]);
-		quest_list_text[j]->setPosition(quest_list_button[j]->getSize() / 2);*/
-
 		quest_list_text[j] = new TextField();
 		quest_list_text[j]->setText(quest_list[j]);
 		quest_list_button[j]->addChild(quest_list_text[j]);
@@ -156,7 +150,7 @@ Questwindow::Questwindow()
 
 	}
 
-	//Скролл
+	//Расположение Скролла
 	spSprite scroll = new Sprite();
 	scroll->setResAnim(res.getResAnim("OxyDeclineButton"));
 	scroll->attachTo(quest_list_window);
